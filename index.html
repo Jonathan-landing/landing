@@ -5,93 +5,52 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jonathan Martínez - Técnico de Sistemas</title>
 
-<style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
+<!-- CDN para iconos (FontAwesome) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  html, body {
-    height: 100%;
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
-    color: #333;
-  }
-
-  .container {
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    background: #fff;
-  }
-
-  h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: #222;
-  }
-
-  p {
-    margin: 8px 0;
-    color: #666;
-    text-align: center;
-  }
-
-  a.button {
-    display: block;
-    margin: 20px 0;
-    padding: 15px 30px;
-    color: #fff;
-    background: #007BFF;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1em;
-    transition: background 0.3s ease;
-    text-align: center;
-  }
-  a.button:hover { background: #0056b3; }
-
-  .links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    margin: 20px 0;
-  }
-  .links a {
-    color: #007BFF;
-    text-decoration: none;
-    font-size: 0.95em;
-    transition: color 0.3s ease;
-  }
-  .links a:hover { color: #0056b3; }
-
-  @media (max-width: 600px) {
-    h1 { font-size: 1.6em; }
-    a.button { width: 100%; box-sizing: border-box; }
-  }
-</style>
+<!-- Enlace a tu CSS externo -->
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="container">
-    <h1>Jonathan Martínez</h1>
-    <p>Técnico de Sistemas</p>
+    <!-- Nombre y título -->
+    <h1>Jonathan Martínez Pagán</h1>
+    <p class="role">Técnico de Sistemas - Consultor Informático</p>
 
-    <a class="button" href="https://drive.google.com/uc?export=download&id=16GIN7Kcv9gUNqh_dUDi2bpVLnDy48WRO" download>Agregar a Contactos (.vcf)</a>
+    <!-- Foto -->
+    <div class="photo" style="background-image: url('IMG_20231224_214203.jpg');"></div>
 
-    <div class="links">
-      <a href="https://wa.me/34661734712" target="_blank">WhatsApp</a>
-      <a href="https://www.linkedin.com/in/jonathan-martínez-pagán/" target="_blank">LinkedIn</a>
-      <a href="https://www.youtube.com/@inmocrypto" target="_blank">YouTube</a>
-      <a href="https://inmocrypto.es/" target="_blank">Web</a>
+    <!-- QR -->
+    <div class="qr-space"><img src="Sin título-1.png" alt="Código QR" width="160" height="160"/></div>
+
+    <!-- Todo el bloque final (contacto, botón, redes) -->
+    <div class="bottom-section">
+      <!-- Email y teléfono -->
+      <div class="contact-info">
+        <a href="mailto:jonathan@inmocrypto.es"><i class="fas fa-envelope"></i> jonathan@inmocrypto.es</a>
+        <a href="tel:+34661734712"><i class="fas fa-phone"></i> +34 661 73 47 12</a>
+      </div>
+
+      <!-- Botón de agregar a contactos -->
+      <a class="button" href="https://drive.google.com/uc?export=download&id=16GIN7Kcv9gUNqh_dUDi2bpVLnDy48WRO" download>
+        <i class="fas fa-address-card"></i> Agregar a Contactos
+      </a>
+
+      <!-- Redes -->
+      <div class="links">
+        <a href="https://wa.me/34661734712" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <a href="https://www.linkedin.com/in/jonathan-martínez-pagán/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://www.youtube.com/@inmocrypto" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+        <a href="https://inmocrypto.es/" target="_blank"><i class="fas fa-globe"></i> Web</a>
+      </div>
     </div>
-
-    <p>Email: <a href="mailto:jonathan@inmocrypto.es">jonathan@inmocrypto.es</a></p>
-    <p>Tel: <a href="tel:+34661734712">+34 661 73 47 12</a></p>
   </div>
 
 </body>
 </html>
+
+
+
+
 
